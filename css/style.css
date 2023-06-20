@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 
@@ -35,9 +36,9 @@
     
 }
 
-.bg-blue{
+/* .bg-blue{
     background-color: blue;
-}
+} */
 
 .bg-grey{
     background-color: lightgrey;
@@ -72,10 +73,6 @@ ul > li{
 
 /* HEADER */
 
-header{
-    background-color:#3161e0;
-    color: white;
-}
 
 .col{
     background-color: #3161e0;
@@ -94,6 +91,11 @@ header{
 
 
 /* MAIN */
+
+.bg-jumbo{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
 
 .box{
     margin: 35px 0;
