@@ -36,21 +36,8 @@
 
 .self-center{
     align-self: center;
-    
 }
 
-
-/* .bg-blue{
-    background-color: blue;
-} */
-
-.bg-grey{
-    background-color: lightgrey;
-}
-
-/* .bg-wsmoke{
-    background-color: whitesmoke;
-} */
 
 .bg-black{
     background-color: black;
@@ -119,9 +106,13 @@ header > *{
     background-image: url("../img/jumbo.png");
     background-size: cover;
     color: white;
-    
-    
 }
+
+/* .bg-wave{
+    background-image: url("../img/wave");
+    background-size: cover;
+    background-position: bottom;
+} */
 
 .box{
     margin: 30px 0;
@@ -142,7 +133,6 @@ header > *{
 
 
 .box.one{
-    
     width: 50%;
 }
 
