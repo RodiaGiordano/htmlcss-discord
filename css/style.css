@@ -1,3 +1,7 @@
+
+/* background color header #3161e0 */
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +16,7 @@
     margin: auto;   
     
 }
+
 
 .flex{
     display:flex;
