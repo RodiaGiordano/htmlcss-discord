@@ -11,7 +11,7 @@
 .container{
     width: 80%;
     margin: auto;
-    padding-top: 30px;  
+    padding-top: 30;  
 }
 
 .flex{
@@ -54,13 +54,16 @@
     background-color:rgb(9, 9, 46);
 }
 
-ul{ 
+header ul{ 
     flex-grow:1;
 }
 
 ul > li{
-    list-style: none;
-    width: calc(100% / 5);    
+    list-style: none;    
+}
+
+header li{
+    width: calc(100% / 5);
 }
 
 .button{
@@ -90,6 +93,14 @@ ul > li{
 
 .font-xsmall{
     font-size: x-small;
+}
+
+.font-strong{
+    font-weight: bold;
+}
+
+.color-blue{
+    color: #3161e0;
 }
 
 .immagine{
@@ -146,7 +157,7 @@ main .container{
     max-width: 50%;
 }
 
-h3{
+main h3{
     margin-bottom: 30px;
 } 
 
@@ -185,6 +196,11 @@ footer{
     margin-top: -100px;
 }
 
+footer > section{
+    padding: 50px 0;
+}
+
+
 .one-two{
     background-color: pink;
     border: 1px dashed black;
@@ -196,7 +212,7 @@ footer{
 .two-two{
     background-color: rgb(30, 162, 118);
     border: 1px dashed black;
-    width: 300px;
+    
 }
 
 .immagine-footer{
@@ -208,12 +224,14 @@ footer{
     width: 50%
 }
 
+.footer-list
 
 .f-col{
     border: 1px dashed white;
-    width: calc(100% / 4);
-    height: 100%;
+    width: calc(100% / 4); 
 }
+
+
 
 .f-first{
     border-bottom: 2px solid salmon;
