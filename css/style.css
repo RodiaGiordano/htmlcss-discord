@@ -14,12 +14,16 @@
 .container{
     width: 80%;
     min-width: 500px;
-    margin:auto;  
+    margin: auto;
+    padding-top: 30px;  
 }
 
 .flex{
     display:flex;
-    
+}
+
+.direction-column{
+    flex-direction: column;
 }
 
 .justify-center{
@@ -37,6 +41,11 @@
 .self-center{
     align-self: center;
 }
+
+.align-center{
+    align-items: center;
+}
+
 
 
 .bg-black{
@@ -80,7 +89,7 @@ ul > li{
 
 /* HEADER */
 
-header > *{
+header {
     color: white;
 }
 
@@ -102,6 +111,12 @@ header > *{
 
 /* MAIN */
 
+main .container{
+    margin-top: 40px;
+    padding-bottom: 120px
+
+}
+
 .bg-jumbo{
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -115,20 +130,19 @@ header > *{
 } */
 
 .box{
-    margin: 30px 0;
     border: 1px dashed black;
     line-height: 1.2rem;
 }
 
 .box> p{
-    margin: 25px 0 10px;
+    margin: 25px 0;
+    padding: 10px ;
       
 }
 
 .box.alone{
     text-align: center;
-    width: 75%; 
-    padding: 0 50px;   
+    width: calc(100% - (33.3333333% / 2));  
 }
 
 
@@ -140,14 +154,6 @@ header > *{
     min-height: 200px;
     width: 25%;
     color: black;
-}
-
-.box-big{
-    margin: 35px 0;
-    border: 1px dashed black;
-    width: 450px;
-    height: 350px;
-    background-color: green;
 }
 
 
@@ -164,7 +170,6 @@ header > *{
 .two-two{
     background-color: rgb(30, 162, 118);
     border: 1px dashed black;
-
     width: 300px;
 }
 
