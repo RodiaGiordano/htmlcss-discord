@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: white;
 }
 
 
@@ -40,6 +39,7 @@
     
 }
 
+
 /* .bg-blue{
     background-color: blue;
 } */
@@ -48,9 +48,9 @@
     background-color: lightgrey;
 }
 
-.bg-wsmoke{
+/* .bg-wsmoke{
     background-color: whitesmoke;
-}
+} */
 
 .bg-black{
     background-color: black;
@@ -86,9 +86,16 @@ ul > li{
     font-size: small;
 }
 
+.immagine{
+    width: 100%;
+}
 
 
 /* HEADER */
+
+header > *{
+    color: white;
+}
 
 
 .col{
@@ -96,7 +103,6 @@ ul > li{
     border: 2px dashed black;
     padding: 10px 5px;
     text-align: center;
-    
     
 }
 
@@ -112,36 +118,38 @@ ul > li{
 .bg-jumbo{
     background-image: url("../img/jumbo.png");
     background-size: cover;
+    color: white;
+    
+    
 }
 
 .box{
     margin: 30px 0;
     border: 1px dashed black;
-    /* height: 200px; */
+    line-height: 1.2rem;
+}
+
+.box> p{
+    margin: 25px 0 10px;
+      
 }
 
 .box.alone{
     text-align: center;
-    width: 500px;
-    line-height: 1.5rem;    
+    width: 75%; 
+    padding: 0 50px;   
 }
 
-
-.box.alone> p{
-    margin: 25px 0 10px;
-    
-}
 
 .box.one{
-    background-color: aqua;
-    height: 200px;
-    width: 300px;
+    
+    width: 50%;
 }
 
 .box.two{
-    background-color: pink;
-    height: 200px;
-    width: 150px
+    min-height: 200px;
+    width: 25%;
+    color: black;
 }
 
 .box-big{
@@ -151,6 +159,8 @@ ul > li{
     height: 350px;
     background-color: green;
 }
+
+
 
 /* FOOTER */
 
