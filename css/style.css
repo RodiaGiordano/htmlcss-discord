@@ -1,7 +1,4 @@
 
-/* font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; */
-
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -38,6 +35,10 @@
     justify-content:space-evenly;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 .self-center{
     align-self: center;
 }
@@ -46,7 +47,9 @@
     align-items: center;
 }
 
-
+.padding{
+    padding: 5px 0;
+}
 
 .bg-black{
     background-color: black;
@@ -80,6 +83,10 @@ ul > li{
 
 .font-small{
     font-size: small;
+}
+
+.font-xsmall{
+    font-size: x-small;
 }
 
 .immagine{
@@ -123,11 +130,6 @@ main .container{
     color: white;
 }
 
-/* .bg-wave{
-    background-image: url("../img/wave");
-    background-size: cover;
-    background-position: bottom;
-} */
 
 .box{
     border: 1px dashed black;
@@ -163,7 +165,8 @@ main .container{
 .one-two{
     background-color: pink;
     border: 1px dashed black;
-    width: 150px;
+    max-width: 150px;
+    
  
 }
 
@@ -173,6 +176,14 @@ main .container{
     width: 300px;
 }
 
+.immagine-footer{
+    height: .8rem;
+    padding-right: 2px;
+}
+
+.f-icon{
+    width: 50%
+}
 
 
 .f-col{
